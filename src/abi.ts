@@ -1,0 +1,25 @@
+import { InterfaceAbi } from "ethers";
+
+export const abi: InterfaceAbi = [
+  {
+    inputs: [],
+    name: "getMessage",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [{ internalType: "string", name: "_text", type: "string" }],
+    name: "setMessage",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "text",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+];
