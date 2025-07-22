@@ -15,7 +15,7 @@ declare global {
 }
 
 const contractAddress = "0x8bb9d856cca8cb916ce11e51eb30971b0d7c1446";
-function App() {
+  function App() {
   const [text, setText] = useState("");
   const [message, setMessage] = useState("");
 
@@ -96,3 +96,4 @@ function App() {
     </div>
   );
 }
+export default App;
